@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyandho/mybookmark.git"
+  },
+  "author": "Ilyas Ndhote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyandho/mybookmark/issues"
+  },
+  "homepage": "https://github.com/ilyandho/mybookmark#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "apollo-server": "^2.14.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.16"
+  }
+}
